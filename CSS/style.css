@@ -147,11 +147,4 @@ main {
 .blink {
     position: relative;
     left: 240px;
-    animation: blinker 2s linear infinite;
-    }
-    @keyframes blinker {
-      50% { opacity: 0; }
-    }
-    @keyframes blin {
-      50% { opacity: 0; }
-    }
+    
