@@ -1,0 +1,66 @@
+/*===========================================================
+
+
+Universal Styling
+
+
+==========================================================*/
+
+* {
+  margin:0;
+  passing:0;
+  border:0;
+  text-decoration: none;
+}
+
+header {
+  background: #88634F;
+  padding: 10px;
+
+}
+header nav {
+    display: inline-block;
+    width: 45%;
+    text-align: right;
+    position: absolute;
+    top: 40px;
+}
+
+header nav li {
+      display: inline-block;
+      margin: 0 30px;
+      font-size: 17px;
+      font-family: termina, helvetica;
+      font-weight: bolder;
+      color: white;
+      text-transform:uppercase;
+      text-decoration: none;
+}
+
+nav li a:hover {
+      color: #fcb6ca;
+}
+
+nav li a {
+      color: #ffffff;
+      position: relative;
+      left: 150px;
+    }
+
+body {
+      background-color: #a57e69;
+}
+
+      /*===========================================================
+
+      Home Page Styling
+
+      ==========================================================*/
+.current {
+      color: #fcb6ca;
+      }
+
+.logo {
+          position: relative;
+          left: 500px;
+      }
