@@ -8,9 +8,8 @@ Universal Styling
 
 * {
   margin:0;
-  passing:0;
+  padding:0;
   border:0;
-  text-decoration: none;
 }
 
 header {
@@ -41,16 +40,38 @@ nav li a:hover {
       color: #fcb6ca;
 }
 
-nav li a {
+nav {
       color: #ffffff;
-      position: relative;
-      left: 150px;
+      position: fixed;
+      left: 470px;
     }
 
-body {
-      background-color: #a57e69;
+nav li a {
+  color:#ffffff;
+  text-decoration:none;
 }
 
+body {
+      background-color:#a57e69;
+}
+
+
+h1  {
+    font-size: 36px;
+    font-family: lato;
+    color: #fcb6ca;
+    position: relative;
+}
+
+p {
+    font-size: 18px;
+    font-family: lato, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+main {
+  position: fixed;
+}
       /*===========================================================
 
       Home Page Styling
@@ -62,5 +83,24 @@ body {
 
 .logo {
           position: relative;
-          left: 500px;
+          left: 490px;
       }
+.welcome {
+    max-width: 365px;
+    position: relative;
+    top: 125px;
+    left: 550px;
+}
+.hero {
+    position: relative;
+    max-width: 100%;
+    left: 900px;
+    bottom:190px;
+}
+
+.wrapper {
+  min-height: 100%;
+  min-width: 100%;
+  background-color: #fcb6ca;
+  position:fixed;
+}
