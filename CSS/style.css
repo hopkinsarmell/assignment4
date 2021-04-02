@@ -12,90 +12,116 @@ Universal Styling
   border:0;
 }
 
-header {
-  background: #88634F;
-  padding: 10px;
-
+body {
+  background-color:#a57e69;
 }
+
+
+h1 {
+  font-size: 36px;
+  font-family: lato;
+  color: #fcb6ca;
+  position: relative;
+}
+
+p {
+  font-size: 18px;
+  font-family: lato, sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+.important {
+  font-family:lato, sans-serif;
+  font-weight: bolder;
+  font-size:23px;
+  color:#fcb6ca;
+  padding: 0 6px;
+  font-style: italic;
+  float: right;
+  margin-right: 26px;
+}
+
+/*===========================================================
+
+Header Styling
+
+==========================================================*/
+
+header {
+  padding: 10px;
+  background-color:#88634f;
+}
+
+
 header nav {
-    display: inline-block;
-    width: 45%;
-    text-align: right;
-    position: absolute;
-    top: 40px;
+  display: inline-block;
+  width: 45%;
+  text-align: right;
+  position: absolute;
+  top: 40px;
 }
 
 header nav li {
-      display: inline-block;
-      margin: 0 15px;
-      font-size: 16px;
-      font-family: termina, helvetica;
-      font-weight: bolder;
-      color: white;
-      text-transform:uppercase;
-      text-decoration: none;
+  display: inline-block;
+  margin: 0 15px;
+  font-size: 16px;
+  font-family: termina, helvetica;
+  font-weight: bolder;
+  color: white;
+  text-transform:uppercase;
+  text-decoration: none;
 }
 
 nav li a:hover {
-      color: #fcb6ca;
+  color: #fcb6ca;
 }
 
 nav {
-      color: #ffffff;
-      position: fixed;
-      left: 520px;
-    }
+  color: #ffffff;
+  position: fixed;
+  left: 520px;
+}
 
 nav li a {
   color:#ffffff;
   text-decoration:none;
 }
 
-body {
-      background-color:#a57e69;
-}
+/*===========================================================
 
+Home Page Styling
 
-h1  {
-    font-size: 36px;
-    font-family: lato;
-    color: #fcb6ca;
-    position: relative;
-}
-
-p {
-    font-size: 18px;
-    font-family: lato, sans-serif;
-    font-weight: bold;
-    color: white;
-}
+==========================================================*/
 main {
   position: fixed;
 }
-      /*===========================================================
-
-      Home Page Styling
-
-      ==========================================================*/
 .current {
-      color: #fcb6ca;
-      }
+  color: #fcb6ca;
+}
 
 .logo {
-          position: relative;
-          left: 440px;
-      }
-.welcome {
-    max-width: 365px;
-    position: relative;
-    top: 80px;
-    left: 550px;
+  position: relative;
+  left: 440px;
 }
+
+.welcome {
+  max-width: 375px;
+  position: relative;
+  top: 70px;
+  left: 550px;
+}
+
+.first {
+  margin-bottom: 10px;
+  font-size:43px;
+}
+
 .hero {
-    position: relative;
-    height: 300px;
-    left: 50px;
-    bottom:180px;
+  position: relative;
+  height: 350px;
+  left: 30px;
+  bottom:190px;
 }
 
 .wrapper {
@@ -106,45 +132,39 @@ main {
 }
 
 .box {
-    position: relative;
-    width: 257px;
-    height: 396px;
-    border-radius: 20px;
-    background: #ffffff linear-gradient(360deg, #ffffff 22%, #fcb6ca 60%);
-    float: left;
-    filter: drop-shadow(0px 2px 2px #cd91a2);
-    margin: 20px;
-    left: 500px;
-    top: 180px;
-}
-
-.column {
-  position:relative;
+  position: relative;
+  width: 257px;
+  height: 396px;
+  border-radius: 20px;
+  background: #ffffff linear-gradient(360deg, #ffffff 22%, #fcb6ca 60%);
   float: left;
-  width: 33.33%;
-  padding: 5px;
-  margin 0 auto;
+  filter: drop-shadow(0px 2px 2px #cd91a2);
+  margin: 20px;
+  left: 500px;
+  top: 200px;
 }
 
 .chef, .model, .rapper {
-    position: fixed;
-    margin: -50px -6px;
-    float: right;
-    right: 6px;
+  position: fixed;
+  margin: -50px -6px;
+  float: right;
+  right: 6px;
 }
 
 .box-title {
-    text-align: center;
-    position: relative;
-    bottom: 65px;
-    font-family: termina, helvetica;
-    font-weight: bolder;
-    font-size: 18px;
-    text-transform: uppercase;
-    color: #ffe8dd;
+  text-align: center;
+  position: relative;
+  bottom: 65px;
+  margin-top:30px;
+
+  font-family: termina, helvetica;
+  font-weight: bolder;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #ffe8dd;
 }
 
-.blink {
-    position: relative;
-    left: 240px;
-    
+.bolt {
+  position: relative;
+  left: 240px;
+}
