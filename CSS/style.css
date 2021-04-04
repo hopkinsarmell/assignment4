@@ -14,6 +14,7 @@ Universal Styling
 
 body {
   background-color:#a57e69;
+  height: 2000px
 }
 
 
@@ -21,7 +22,6 @@ h1 {
   font-size: 36px;
   font-family: lato;
   color: #fcb6ca;
-  position: relative;
 }
 
 p {
@@ -32,14 +32,16 @@ p {
 }
 
 .important {
-  font-family:lato, sans-serif;
-  font-weight: bolder;
-  font-size:23px;
+  font-family: adobe-handwriting-ernie, sans-serif;
+  font-size:28px;
   color:#fcb6ca;
-  padding: 0 6px;
-  font-style: italic;
+  padding: 20px;
   float: right;
-  margin-right: 26px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 /*===========================================================
@@ -53,13 +55,19 @@ header {
   background-color:#88634f;
 }
 
+header .container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
 
 header nav {
-  display: inline-block;
-  width: 45%;
-  text-align: right;
-  position: absolute;
-  top: 40px;
+    display: inline-block;
+    width: 65%;
+    color: #ffffff;
+    position: relative;
+    top: -35px;
+    padding-left: 45px;
+    box-sizing: border-box;
 }
 
 header nav li {
@@ -77,15 +85,21 @@ nav li a:hover {
   color: #fcb6ca;
 }
 
-nav {
-  color: #ffffff;
-  position: fixed;
-  left: 520px;
-}
-
 nav li a {
   color:#ffffff;
   text-decoration:none;
+}
+
+.logo-container {
+    display: inline-block;
+    width: 30%;
+    position: relative;
+}
+
+.bolt {
+    position: absolute;
+    left: 134px;
+    top: 5px;
 }
 
 /*===========================================================
@@ -93,23 +107,19 @@ nav li a {
 Home Page Styling
 
 ==========================================================*/
-main {
-  position: fixed;
+
+.container section {
+    margin: 55px 0 90px 0;
+    height: 398px;
 }
+
 .current {
   color: #fcb6ca;
 }
 
-.logo {
-  position: relative;
-  left: 440px;
-}
 
 .welcome {
   max-width: 375px;
-  position: relative;
-  top: 70px;
-  left: 550px;
 }
 
 .first {
@@ -117,11 +127,15 @@ main {
   font-size:43px;
 }
 
+.welcome-content {
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;
+}
+
 .hero {
-  position: relative;
-  height: 350px;
-  left: 30px;
-  bottom:190px;
+    display: inline-block;
+    width: 49%;
 }
 
 .wrapper {
@@ -131,32 +145,46 @@ main {
   position:fixed;
 }
 
-.box {
-  position: relative;
-  width: 257px;
-  height: 396px;
-  border-radius: 20px;
-  background: #ffffff linear-gradient(360deg, #ffffff 22%, #fcb6ca 60%);
-  float: left;
-  filter: drop-shadow(0px 2px 2px #cd91a2);
-  margin: 20px;
-  left: 500px;
-  top: 200px;
+.box-links {
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    top: -130px;
+    text-align: center;
 }
 
-.chef, .model, .rapper {
-  position: fixed;
-  margin: -50px -6px;
-  float: right;
-  right: 6px;
+.box {
+  position: relative;
+  width: 26%;
+  height: 355px;
+  border-radius: 20px;
+  background: #ffffff linear-gradient(360deg, #ffffff 22%, #fcb6ca 60%);
+  filter: drop-shadow(0px 2px 2px #cd91a2);
+  margin: 60px 20px 0px 20px;
+  display: inline-block;
+  max-width: 257px;
+}
+
+.box-links a {
+    color: #ffe8dd;
+    text-decoration: none;
+}
+
+.box-links a:hover {
+    color: #fcb6ca;
+}
+
+img.trio {
+    position: relative;
+    margin: -90px;
+    right: 8px;
 }
 
 .box-title {
   text-align: center;
   position: relative;
-  bottom: 65px;
+  bottom: 100px;
   margin-top:30px;
-
   font-family: termina, helvetica;
   font-weight: bolder;
   font-size: 18px;
@@ -164,7 +192,43 @@ main {
   color: #ffe8dd;
 }
 
-.bolt {
-  position: relative;
-  left: 240px;
+.jokes-container {
+    text-align: center;
+    height: 1350px;
+    padding: 0 0 600px;
+    background: #88634f;
+    padding: 120px;
+    border-top: 5px solid pink;
+}
+
+.answer {
+    font-size: 18px;
+    font-family: lato, sans-serif;
+    font-weight: bold;
+    color: #fcb6ca;
+    padding: 40px;
+}
+
+h3.joke {
+    font-size: 27px;
+    font-family: lato;
+    color: white;
+}
+
+.source-title {
+    color: white;
+    font-family: lato, sans-serif;
+    font-size: 17px;
+    padding: 0 10px;
+}
+
+h5.source {
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: pink;
+    padding: 15px;
+    border: 2px solid pink;
+    border-radius: 15px;
 }

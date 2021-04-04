@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="https://use.typekit.net/hbl5zip.css">
 
     <!-- Link to animation -->
-
       <link
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
@@ -21,10 +20,12 @@
   <body>
 
     <header>
-      <img src="images/logo.png" class="logo animate__animated animate__zoomInDown" alt="Melzitup Logo" />
-      <img src="images/bolt.png" class="bolt animate__animated animate__heartBeat" alt="lightning bolt" />
-
       <div class="container">
+        <div class="logo-container">
+          <img src="images/logo.png" class="logo animate__animated animate__zoomInDown" alt="Melzitup Logo" />
+          <img src="images/bolt.png" class="bolt animate__animated animate__heartBeat" alt="lightning bolt" />
+        </div>
+
         <nav>
           <ul>
             <li><a href="index.html">The Model</a></li>
@@ -34,33 +35,63 @@
           </ul>
         </nav>
       </div>
+
     </header>
 
     <main>
-      <section>
-        <h1 class="welcome first">Welcome!</h1>
-        <p class="welcome">Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.<br> <span class="important">- Melz</span></p>
+      <div class="container">
+        <section class="welcome-intro">
+          <div class="welcome-content">
+            <h1 class="welcome first">Welcome!</h1>
+            <p class="welcome">Thank you for visiting my site. This site is an untraditional portfolio, sharing three areas of intrest that I have. These interests are: rapping, cooking, and modeling. Feel free to explore the site and get an inside look at the somewhat hidden aspects of me. Enjoy!<br> <span class="important">- Melz</span></p>
+          </div>
+
+          <img src="images/hero.png" class="hero" alt="Hero Image" />
+        </section>
+      </div>
+
+      <div class="wrapper">
+        <section class="box-links">
+          <div class="box">
+            <h2 class="box-title"><a href="#">scroll<a></h2>
+            <img src="images/model.png" class="trio" alt="Hero Image"/>
+          </div><!-- box -->
+
+          <div class="box">
+            <h2 class="box-title"><a href="#">for<a></h2>
+          <img src="images/rapper.png" class="trio" alt="Hero Image"/>
+          </div><!-- box -->
+
+          <div class="box">
+            <h2 class="box-title"><a href="#">jokes<a></h2>
+          <img src="images/chef.png" class="trio" alt="Hero Image"/>
+          </div><!-- box -->
+        </section>
+      </div><!-- wrapper -->
+
+      <div class="jokes-container">
+        <section class="jokes">
 
 
-        <img src="images/hero.png" class="hero" alt="Hero Image" />
 
-        <div class="wrapper">
-        </div>
-        <div class="box">
-          <h2 class="box-title">View</h2>
-          <img src="images/model.png" class="model" alt="Hero Image" />
+          <h3 class="joke">1. Did you hear about the fire at the circus?</h1>
+          <p class="answer">It was in tents!</p>
 
-        </div>
-        <div class="box">
-          <h2 class="box-title">Listen</h2>
-          <img src="images/rapper.png" class="rapper" alt="Hero Image" />
+          <h3 class="joke">2. Do you want to hear a construction joke?</h1>
+          <p class="answer">Sorry, i'm still working on it.</p>
 
-        </div>
-        <div class="box">
-          <h2 class="box-title">Taste</h2>
-          <img src="images/chef.png" class="chef" alt="Hero Image" />
-        </div>
-      </section>
+          <h3 class="joke">3. Why should you never trust stairs?</h1>
+          <p class="answer">They’re always up to something.</p>
+
+          <h3 class="joke">4. What does a house wear?</h1>
+          <p class="answer">Address!</p>
+
+          <h3 class="joke">5. Want to hear a joke about a roof?</h1>
+          <p class="answer">The first one’s on the house.</p>
+
+
+          <h5 class="source"><span class="source-title">Source:</span>Liles, M. (2020, September 29). 101 Good, Clean Jokes That'll Make You Laugh Your Pants Off. <br> Retrieved from https://parade.com/1041830/marynliles/clean-jokes/</h4>
+          </div>
     </main>
   </body>
 </html>
