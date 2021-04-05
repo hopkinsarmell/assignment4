@@ -14,7 +14,6 @@ Universal Styling
 
 body {
   background-color:#a57e69;
-  height: 2000px
 }
 
 
@@ -183,40 +182,4 @@ img.trio {
   font: bolder 18px termina, sans-serif;
   text-transform: uppercase;
   color: #ffe8dd;
-}
-
-.jokes-container {
-    text-align: center;
-    height: 1290px;
-    padding: 0 0 600px;
-    background: #88634f;
-    padding: 105px;
-    border-top: 5px solid pink;
-}
-
-.answer {
-    font: bold 18px lato, sans-serif;
-    color: #fcb6ca;
-    padding: 40px;
-}
-
-h3.joke {
-    font: 27px lato, sans-serif;
-    color: white;
-}
-
-.source-title {
-    color: white;
-    font: 17px termina, sans-serif;
-    padding: 0 10px;
-}
-
-h4.source {
-    max-width: 800px;
-    margin: 40px 429.500px 0px;
-    font: bold 15px sans-serif;
-    color: pink;
-    padding: 15px;
-    border: 2px solid pink;
-    border-radius: 15px;
 }
