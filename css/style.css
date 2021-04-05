@@ -7,13 +7,13 @@ Universal Styling
 ==========================================================*/
 
 * {
-  margin:0;
-  padding:0;
-  border:0;
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
 body {
-  background-color:#a57e69;
+  background-color: #a57e69;
 }
 
 
@@ -80,7 +80,7 @@ nav li a:hover {
 }
 
 nav li a {
-  color:#ffffff;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -178,7 +178,7 @@ img.trio {
   text-align: center;
   position: relative;
   bottom: 100px;
-  margin-top:30px;
+  margin-top: 30px;
   font: bolder 18px termina, sans-serif;
   text-transform: uppercase;
   color: #ffe8dd;
